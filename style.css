@@ -1,0 +1,111 @@
+*{
+    display: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+/*
+font-family: 'Crimson Pro', serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+h1{
+    font-weight: 900;
+    font-size: 30px;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    Font-weight: 600;
+Font-size: 24px;
+Font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+h3{
+    Font-weight: 600;
+    Font-size: 20px;
+    Font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+p,li{
+    Font-weight: 400;
+Font-size: 16px;
+Font-family: 'Montserrat', sans-serif;
+}
+section{
+    border: 1px solid darkgray;
+    width:1080px;
+    margin: 20px auto;
+}
+.color1{
+    background-color:#F26B76;
+    color:grey;
+}
+.color2{
+    background-color:#D9042B;
+    color:white;
+}
+.color3{
+    background-color:#73020C;
+    color:white;
+}
+.color4{
+    background-color:#400101;
+    color:white;
+}
+.color5{
+    background-color:#262421;
+    color:white;
+}
+.color6{
+    background-color:#0D0D0D;
+    color:white;
+}
+.strings{
+    
+    width:180px;
+    height:480px;
+    margin: 0 auto;
+    float: left;
+    
+}
+.colors{
+    height:548px;
+}
+.colors p{
+    line-height: 470px;
+    text-align: center;
+}
+.montserrat{
+    font-family:'Montserrat', sans-serif;
+}
+.bold-text-sample{
+    font-weight: bold;
+}
+.ittalic-text-sample{
+    font-style: italic;
+}
+.dm-sans{
+    font-family: 'DM Sans';
+}
+.crimson-pro{
+    font-family: 'Crimson Pro', serif;
+}
+p{
+    margin-left: 20px;
+}
+.colors h2{
+    font-size: 28px;
+    background: -webkit-linear-gradient(#F26B76, #400101);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+body{
+    background: linear-gradient(90deg, lightgray, white);
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    color:grey;
+}
